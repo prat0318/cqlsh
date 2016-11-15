@@ -24,7 +24,7 @@ setup(
     platforms=['any'],
     license="http://www.apache.org/licenses/LICENSE-2.0",
     install_requires=['cql', 'simplejson', 'cassandra-driver'],
-    tests_require=['unittest2']
+    tests_require=['unittest2'],
     packages=['cqlshlib'],
     scripts = [
         'cqlsh',
